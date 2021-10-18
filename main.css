@@ -1,0 +1,97 @@
+@import url('https://img2.freepng.ru/20180524/evj/kisspng-landscape-computer-icons-encapsulated-postscript-circle-city-conference-5b071afdca8288.9839969415271923178295.jpg');
+body {
+    font-family: Corbel,Candara;
+    background: rgb(247, 239, 239);
+    padding : 100px 0 ;
+}
+h3{
+    font-size:20px;
+    font-weight:bold;
+}
+.box1{
+    background:#94ccd1;
+}
+.box2{
+    background:#c2f0ee;
+}
+.countainer{
+    width:800px;
+    min-height: 800px;
+    border:5px solid #fff ;
+    margin: 0 auto;
+    background: #fff;
+}
+.header{
+    display:flex;
+    height:300px;
+    margin-bottom:10px;
+}
+.title-block{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:80%;
+    height:100%;
+    font-size:30px;
+    background: crimson;
+}
+.title-block::after{
+    content:" ";
+    position: absolute;
+    left:0px;
+    top: 0px;
+    width:100%;
+    height:100%;
+}
+
+title{
+    position: relative;
+    z-index:1;
+}
+.userpic{
+    display:flex;
+    height:60%;
+    width:20%;
+    background: url('https://static10.tgstat.ru/channels/_0/3c/3cff6bc2e866522499cf024ed407ad79.jpg') no-repeat center center/cover
+}
+.nav ul{
+    display:flex;
+    background: rgb(192, 188, 188);
+    margin: 10px 0;
+}
+.nav li a{
+    display:flex;
+    padding:20px;
+    color: black;
+    font-weight:bold;
+    border-right: 1px solid beige;
+}
+.nav li a:hover{
+    background:cadetblue
+}
+
+.content-wrapper{
+    display:flex;
+}
+.content{
+    width:100%;
+}
+.table {
+   border: 1px solid grey;
+   width: 45%;
+}
+.th {
+   border: 1px solid grey;
+}
+.td {
+   border: 1px solid grey;
+}
+.sidebar{
+    border: 1px solid violet;
+    width: 35%;
+}
+.form{
+    font-size:20px;
+    font-weight:bold;
+}
