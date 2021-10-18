@@ -1,0 +1,85 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Проект для МИРЭА</title>
+    <link rel="stylesheet" hsef="main.css">
+</head>
+<body>
+    <div class="countainer"> 
+        <div class="header">
+            <div class="title-block">
+                <h1 class="title">Проект по теме: создание интерактивного сайта</h1>
+            </div>
+            <div class="userpic"></div>
+        </div> 
+        <div class="nav">
+            <ul>
+                <li><a hsef="#">Введение</a></li>
+                <li><a hsef="#">Аннотация</a></li>
+                <li><a hsef="#">Статистика</a></li>
+                <li><a hsef="#">Создание проекта</a></li>
+                <li><a hsef="#">Обратная связь</a></li>
+            </ul>
+        </div> 
+        <div class="content-wrapper"></div> 
+            <div class="content">
+                <div class="box1"> 
+                <h3>Введение</h3>
+                <p1>Здравствуйте, меня зовут Землянская Мария Михайловна. 
+                    Я хотела бы представить вам свой проект по теме создания интерактивных сайтов и городских отзывов</p1>
+                </div>
+                <div class="box2"> 
+                <h3>Аннотация</h3>
+                <p2>Этот проект по способствует развитию и улучшения инфраструктур на основе отзывов актинвых граждан</p2>
+                </div>
+                <div class="box1"> 
+                <h3>С помощью чего проект решает проблему</h3>
+                <p2>Этот проект решает проблему основываясь на отзывах неравнодушных граждан, по этим отзывам будет вестись статистика   </p2>
+                </div>
+                <div class="box2">    
+                <h3>Статистика</h3>
+                <p1>Здесь освещаются главные аспекты создания проекта</p1>
+                    <table border="1" bgcolor="#7FFFD4" cellpadding="10" style="width:100%; border-radius:5px;">
+                    <tbody><tr><th>уже сделано</th><th>в процессе</th><th>скоро будет</th></tr>
+                    <tr><td>придумана концепция</td><td>макет</td><td>сайт</td></tr> 
+                    <tr><td>определена проблема</td><td>определены инструменты</td><td>презентация</td></tr> 
+                    </tbody></table>
+                </div>
+                <div class="box1">    
+                <h3>Создание проекта</h3>
+                <p2>Создание проекта состоит из нескольких этапов:</p2>
+                <ul type="square">
+                    <li>создание идеи проекта</li>
+                    <li>осозание проблем для решения поставленной задачи</li>
+                    <li>перенос задумки на бумажный носитель(макет)</li>
+                    <li>создание сайта</li>
+                    <li>тестирование и предстваление готовго продукта</li>
+                </ul>
+                </div>
+            </div> 
+<div class="box2">
+    <div class="sidebar"></div>
+            <form class="form" name="feedback" method="POST" action="/feedback.php">
+                <div class="caption">Обратная связь</div>
+                <div>Ваше имя</div>
+                <input type="text" name="name" required="required">
+                <div>Ваша почта</div>
+                <input type="email" name="email" required="required">
+                <div>Ваш возраст</div>
+                <input type="number" placeholder="20">
+                <div class="infofield">Пол</div>
+                <select gen="theme" required="required">
+                  <option value="">Выберите вариант</option>
+                  <option>Женский</option>
+                  <option>Мужской</option>
+                  <option>Нейтралитет</option>
+                </select>
+                <div>О себе</div>
+                <textarea name="message"></textarea>
+                <input type="submit" name="submit_btn" value="Отправить">
+              </form>
+            </div> 
+        </div>
+    
+</body></html>
